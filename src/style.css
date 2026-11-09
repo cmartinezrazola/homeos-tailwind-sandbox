@@ -1,0 +1,13 @@
+/* 1. Cargamos todo el motor de Tailwind v4 */
+@import "tailwindcss";
+
+/* 2. Añadimos nuestras personalizaciones usando la directiva @theme */
+@theme {
+  /* Aquí creas los colores oficiales para tu ecosistema HomeOS */
+  --color-homeos-accent: #aa3bff;
+  --color-homeos-bg: #fff;
+  --color-homeos-text: #6b6375;
+  
+  /* Puedes añadir fuentes personalizadas si quieres */
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
